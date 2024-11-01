@@ -1,0 +1,13 @@
+train: C:/Users/Alan/Desktop/sc2079/model24/train/images
+val: C:/Users/Alan/Desktop/sc2079/model24/valid/images
+
+
+nc: 31
+names: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'bullseye', 'downarrow', 'eight', 'five', 'four', 'leftarrow', 'nine', 'one', 'rightarrow', 'seven', 'six', 'stop', 'three', 'two', 'uparrow']
+
+roboflow:
+  workspace: mdpproject
+  project: mdpmdp
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mdpproject/mdpmdp/dataset/6
